@@ -33,7 +33,6 @@ struct stChanNote {
 	static const stChanNote BLANK;
 };
 
-const stChanNote stChanNote::BLANK = {0, 0, MAX_VOLUME, MAX_INSTRUMENTS, {EF_NONE, EF_NONE, EF_NONE, EF_NONE}, {0, 0, 0, 0}};
 
 // TODO rename to CTrack perhaps?
 

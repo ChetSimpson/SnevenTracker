@@ -22,6 +22,8 @@
 #include "FamiTrackerDoc.h"
 #include "PatternData.h"
 
+const stChanNote stChanNote::BLANK = {0, 0, MAX_VOLUME, MAX_INSTRUMENTS, {EF_NONE, EF_NONE, EF_NONE, EF_NONE}, {0, 0, 0, 0}};
+
 // This class contains pattern data
 // A list of these objects exists inside the document one for each song
 
